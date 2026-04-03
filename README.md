@@ -2,7 +2,7 @@ SimHub Remote Telemetry Bridge
 
 Author: Angus
 
-Version: 2.0 (Hardened Edition)
+Version: 1.0
 
 A high-performance, secure networking plugin for SimHub that allows race engineers or teammates to view Dash Studio dashboards remotely without port forwarding or exposing the host's IP address.
 🚀 Core Features
@@ -50,13 +50,3 @@ Unlike traditional remote access, this plugin uses an encrypted outbound tunnel.
     Encryption: All data is transmitted over HTTPS.
 
     Ephemeral: Links are unique to every session and expire immediately upon stopping the service.
-
-📅 Version 2.0 Roadmap (Planned)
-
-    [x] Binary Integrity: SHA-256 checksum validation for all downloads.
-
-    [ ] Health Monitoring: Real-time heartbeat checks to ensure the dashboard remains live during endurance stints.
-
-    [ ] Adaptive Bandwidth Mode: UI suggestions for low-latency telemetry on mobile/unstable connections.
-
-    [ ] Startup Watchdog: 15-second "Fail-Fast" logic to prevent UI hangs during network negotiation.
