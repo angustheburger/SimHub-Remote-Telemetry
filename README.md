@@ -23,7 +23,7 @@ A high-performance, secure networking plugin for SimHub that allows race enginee
 
     Download the latest release DLL.
 
-    Place SimHubRemoteTelemetry.dll and Newtonsoft.Json.dll into your SimHub installation folder (usually C:\Program Files (x86)\SimHub).
+    Place SimHubRemoteTelemetry.dll into your SimHub installation folder (usually C:\Program Files (x86)\SimHub).
 
     Restart SimHub and enable the Remote Telemetry plugin in the settings.
 
